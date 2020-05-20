@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #EEEEEE ;
+}
+
+.vehicle-info {
+  border: 1px solid red;
+  position: relative;
+}
+
+img {
+  width: 460px;
+  height: 460px;
+  
+}
+
+.info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: sans-serif;
+  font-weight: bold  
+}
+
+.label {
+  margin: 0;
+}
+
+.value {
+  margin: 0;
+  color: blue;
+}
+
+.roll {
+  top: 80px;
+  left: 340px;
+}
+
+.pitch {
+  top: 285px;
+  left: 385px;
+}
+
+
+.yaw {
+  top: 370px;
+  left: 115px;
+}
+
+
+
+
+/*.roll {
+  top: 90px;
+  left: 360px;
+}
+
+.pitch {
+  top: 300px;
+  left: 410px;
+}
+
+
+.yaw {
+  top: 390px;
+  left: 120px;
+}*/
